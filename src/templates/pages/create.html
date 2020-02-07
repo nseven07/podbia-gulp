@@ -1,0 +1,25 @@
+{% extends "layouts/layout.index.html" %}
+
+{% block content %}
+
+<div class="top-image">
+    <img src="../assets/img/top-image.png">
+</div>
+<div class="main">
+<div class="content">
+<div class="textColumn"><p class="firstText">
+    Ah şu unutulan parolalar… Podbia’ya yeniden bağlanabilmek için
+    <br><span class="secondText">Unutmayacağın bir parola belirle :)</span>
+</p></div>
+<div class="inputs">
+    <input id="pw-input1" class="password-input" type="password" placeholder="Yeni parola girin..." >
+
+    <input id="pw-input2" class="password-input" type="password" placeholder="Parolanı Doğrula" >
+</div>
+{% include 'partials/submit-button.html' %}
+</div>
+<div class="background">
+    <div class="bg-image"></div>
+</div>
+</div>
+{% endblock %}
