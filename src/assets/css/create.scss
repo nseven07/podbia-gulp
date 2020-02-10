@@ -64,7 +64,7 @@
 }
 .button-text{
   font-family: 'Poppins', sans-serif;
-  padding-top:20px;
+  padding-top:16px;
   padding-left: 20px;
   font-size: 18px;
   color: #fff;
@@ -100,6 +100,7 @@ input::placeholder{
   }
   .top-image{
     display: flex;
+    padding-left: 0;
 
   }
   .password-input{
@@ -175,6 +176,7 @@ input::placeholder{
   }
   .top-image{
     display: flex;
+    padding-left: 0;
   }
   .top-image img{
     width:164px;
