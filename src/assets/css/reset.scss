@@ -1,6 +1,9 @@
 body{
   min-width: 310px;
 }
+.r-button-a{
+  text-decoration: none;
+}
 .r-bg-image{
   background-image: url("../img/background2.png");
   width: 100%;
@@ -73,6 +76,7 @@ body{
   position: fixed;
   bottom: 12%;
 }
+
 input::placeholder{
   color: #B5005D;
 }
@@ -181,4 +185,5 @@ input::placeholder{
   .r-content{
     width: 100%;
   }
+
 }
